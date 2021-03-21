@@ -1,0 +1,41 @@
+.button {
+  background-color: var(--blue-text);
+  width: 200px;
+  height: 50px;
+  color: var(--white-text);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+
+  &:hover {
+    background-color: var(--blue-text);
+    color: var(--white-text);
+  }
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.title {
+  color: var(--black-text);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.title--indent {
+  margin-bottom: 50px;
+}
